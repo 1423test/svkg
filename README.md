@@ -27,7 +27,8 @@ An ImageNet root directory should contain image folders, each folder with the wo
 3. Run 'python resnet_process.py' get visual features of imagenet in 'datasets/imagenet'
 
 #### Train Graph Networks
-Run `python train.py`, get results in `baseline/svkg-1000.pred`
+Run `python train.py`, get results in `baseline/svkg-1000.pred`.
+
 *(Download pretrained model from https://drive.google.com/drive/folders/1zcrr3d7UYZBF5X7hQvG_bR0R3xFehGiC?usp=sharing for testing)
 
 ### Testing
