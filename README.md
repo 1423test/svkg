@@ -19,7 +19,7 @@ An ImageNet root directory should contain image folders, each folder with the wo
 #### Graph
 1. `cd graph/`
 2. Run `svkg.py`, get `svkg.json`
-3. Else download svkg.json from https://drive.google.com/drive/folders/1zcrr3d7UYZBF5X7hQvG_bR0R3xFehGiC?usp=sharing
+3. Else download 'svkg.json' from https://drive.google.com/drive/folders/1zcrr3d7UYZBF5X7hQvG_bR0R3xFehGiC?usp=sharing
 
 #### Pretrained ResNet50
 1. Download: https://drive.google.com/drive/folders/1hZ0CcAs8UwO9YsnNNs7Ve7i9AtSLfL4N?usp=sharing
