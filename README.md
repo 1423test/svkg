@@ -28,14 +28,14 @@ An ImageNet root directory should contain image folders, each folder with the wo
 
 #### Train Graph Networks
 Run `python train.py`, get results in `baseline/svkg-1000.pred`
+*(Download pretrained model from https://drive.google.com/drive/folders/1zcrr3d7UYZBF5X7hQvG_bR0R3xFehGiC?usp=sharing for testing)
 
 ### Testing
 Run `python test.py` with the args:
 
 #### ImageNet
-* `--pred`: the `.pred` file for testing
+* `--pred`: the `.pred` file for testing. 
 * `--test-set`: choose test set, choices: `[general, detailed]`
 * `--split`: choose test set, choices: `[2-hops, 3-hops, all, bird, dog, snake, monkey]`
 * (optional) `--keep-ratio` for the ratio of testing data, `--consider-trains` to include training classes' classifiers, `--test-train` for testing with train classes images only.
-
 
