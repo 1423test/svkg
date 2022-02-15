@@ -24,7 +24,7 @@ An ImageNet root directory should contain image folders, each folder with the wo
 #### Pretrained ResNet50
 1. Download: https://drive.google.com/drive/folders/1hZ0CcAs8UwO9YsnNNs7Ve7i9AtSLfL4N?usp=sharing
 2. Put files :`cd visual/fc-weights.json` and `visual/resnet50-base.pth`
-3. Run 'python resnet_process.py' get visual features of imagenet in 'datasets/imagenet'
+3. Run 'python resnet_process.py' get visual features of imagenet in `datasets/imagenet`
 
 #### Train Graph Networks
 Run `python train.py`, get results in `baseline/svkg-1000.pred`.
