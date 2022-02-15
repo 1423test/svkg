@@ -16,7 +16,7 @@ An ImageNet root directory should contain image folders, each folder with the wo
 1. Download: http://nlp.stanford.edu/data/glove.6B.zip
 2. Unzip it, find and put `glove.6B.300d.txt` to `graph/`.
 
-#### Graph
+#### Semantic-Visual Shared Knowledge Graph
 1. `cd graph/`
 2. Run `svkg.py`, get `svkg.json`
 3. Else download `svkg.json` from https://drive.google.com/drive/folders/1zcrr3d7UYZBF5X7hQvG_bR0R3xFehGiC?usp=sharing
