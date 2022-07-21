@@ -8,7 +8,7 @@
 #### ImageNet and part visual features 
 
 1. Download ImageNet.
-2. Download part visual features:https://drive.google.com/drive/folders/19Hg59bfIusNLNLONkxoswPbsCUGpb_Gd?usp=sharing and  `cd datasets/part`
+2. Download part visual features:https://figshare.com/articles/dataset/data_rar/20342646 and  `cd datasets/part`
 
 An ImageNet root directory should contain image folders, each folder with the wordnet id of the class.
 
@@ -19,15 +19,15 @@ An ImageNet root directory should contain image folders, each folder with the wo
 #### Semantic-Visual Shared Knowledge Graph
 1. `cd graph/`
 2. Run `svkg.py`, get `svkg.json`
-3. Else download `svkg.json` from https://drive.google.com/drive/folders/1zcrr3d7UYZBF5X7hQvG_bR0R3xFehGiC?usp=sharing
+3. Else download `svkg.json` from https://figshare.com/articles/dataset/data_rar/20342646
 
 #### Pretrained ResNet50
-1. Download: https://drive.google.com/drive/folders/1hZ0CcAs8UwO9YsnNNs7Ve7i9AtSLfL4N?usp=sharing, get `fc-weights.json` and `resnet50-base.pth`
+1. Download: https://figshare.com/articles/dataset/data_rar/20342646, get `fc-weights.json` and `resnet50-base.pth`
 2. Put files :`cd visual`
 3. Run 'python resnet_process.py' get visual features of imagenet in `datasets/imagenet`
 
 #### Train Graph Networks
-Run `python train.py`, get results in `baseline/svkg-1000.pred`. Else download pretrained model from https://drive.google.com/drive/folders/1zcrr3d7UYZBF5X7hQvG_bR0R3xFehGiC?usp=sharing for testing.
+Run `python train.py`, get results in `baseline/svkg-1000.pred`. Else download pretrained model from https://figshare.com/articles/dataset/data_rar/20342646 for testing.
 
 ### Testing （General and detailed test）
 Run `python test.py` with the args:
